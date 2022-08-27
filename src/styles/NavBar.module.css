@@ -1,0 +1,29 @@
+.container{
+    position: fixed;
+    display: flex;
+    padding: 15px 18px 17px;
+    height: 26px;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
+}
+.nav_logo{
+    width: 165px;
+    height: 29px;
+}
+.nav_ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 28px;
+}
+
+.nav_li{
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3px 0px;
+    font-weight: bold;
+    padding: 0px 18px;
+}
+.nav_li:hover{
+    color: #04c584;
+    cursor: pointer;
+}

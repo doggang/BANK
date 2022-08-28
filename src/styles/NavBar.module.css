@@ -7,8 +7,9 @@
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
 }
 .nav_logo{
+    margin-top: 2px;
     width: 165px;
-    height: 29px;
+    height: 26px;
 }
 .nav_ul{
     display: flex;
@@ -26,4 +27,29 @@
 .nav_li:hover{
     color: #04c584;
     cursor: pointer;
+}
+.nav_li_first:hover .detail_first_ul{
+    display: block;
+}
+.detail_first_ul{
+    display: none;
+    padding-top: calc(17px + 25px);
+    list-style-type: none;
+    background-color: grey;
+}
+
+.card{
+    position: relative;
+    top: 58px;
+    display: flex;
+    width: 100%;
+    background-color: grey;
+    
+}
+.cardUl{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.cardUl li{
+    font-size: 14px;
 }
